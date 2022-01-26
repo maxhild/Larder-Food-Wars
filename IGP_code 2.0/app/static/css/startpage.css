@@ -1,0 +1,62 @@
+#title{
+font-size: 50px;
+text-align: center;
+}
+
+body{
+background: lightblue;
+}
+
+.recipe-box{
+  height: 200px;
+  width: 280px;
+  background-color: #fff;
+  transition: all .2s ease-in-out;
+}
+
+.recipe-box:hover{
+  transform: scale(1.1);
+}
+
+#box-one{
+  margin-left: 220px;
+  margin-top: 30px;
+}
+
+#box-two{
+  margin-left: 550px;
+  margin-top: -200px;
+}
+
+#box-three{
+  margin-left: 875px;
+  margin-top: -200px;
+}
+
+#box-four{
+  margin-left: 220px;
+  margin-top: 50px;
+}
+
+#box-five{
+  margin-left: 550px;
+  margin-top: -200px;
+}
+
+.recipe-text{
+font-size: 20px;
+margin-left: 20px;
+padding-top: 10px;
+}
+
+
+.button-text{
+font-size: 30px;
+}
+
+#total-cost{
+font-size: 30px;
+margin-left: 1000px;}
+
+#welcome-text{
+font-size:50px;}

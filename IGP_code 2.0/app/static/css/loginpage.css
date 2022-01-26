@@ -1,0 +1,112 @@
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.login-form-2{
+    padding: 5%;
+    background: #0062cc;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#form-one{
+height: 650px;
+width: 100px;
+}
+
+#labeltext{
+color: #fff
+}
+
+input:focus::placeholder{
+    color: transparent
+}
+#h2-text{
+color: #fff;
+font-size: 15px;
+}
+.linkcreateaccount{
+    font-size: 23px;
+    color:#fff;
+}
+
+#login-box{
+margin-left: 250px;
+position: absolute;
+height: 600px;
+background: #FF8383;
+font-family: 'Open Sans', sans-serif;
+}
+
+#loginheader{
+font-size: 50px;
+}
+
+#login-box-two{
+margin-left: 250px;
+position: absolute;
+height: 1000px;
+background: #fff;
+}
+
+#result_login{
+color: white}
+
+#login-button{
+margin-top:10px;}
+
+.labelhead{
+color:white;}
+
+#create-button{
+margin-top:30px;
+}
+
+#inner_box{
+margin-top: -40px;}
+
+#whole_create_account{
+background: #FF8383;;
+}
