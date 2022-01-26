@@ -1,0 +1,58 @@
+#whole_quiz{
+background: lightgrey;}
+
+h2{
+color:black;
+font-size: 40px;}
+
+label{
+color: black;
+}
+
+.form-check-inline{
+margin-top:20px;}
+
+.box {
+  display: grid;
+  grid-template-columns: 0.4fr 0.5fr;
+  margin-left: 40px;
+}
+.box :first-child {
+    align-self: center;
+}
+
+.login-container{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    padding-left: 5%;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+
+
+#labeltext{
+color: #000000;
+}
+
+input:focus::placeholder{
+    color: transparent
+}
+
+
+#to_startpage{
+float:right;
+width:200px;
+margin-right: 100px;
+}
+
+#login-box{
+height: 200px;
+background: #FF8383;
+width: 600px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/startpage.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<h1 id="title">Admin {{session["login_username"]}}</h1>
+
+<form method="post" action="/showproducts">
+<button type="submit" class="recipe-box" id="box-one">
+  <p class="button-text">Show and add products</p>
+</button>
+</form>
+
+<form method="post" action="/logout">
+<button type="submit" class="recipe-box" id="box-two">
+  <p class="button-text">Logout</p>
+</button>
+</form>
+
+  </body>
+</html>
